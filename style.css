@@ -1,0 +1,173 @@
+body{
+    background-color: #DEE9EB;
+    font-family: "Poppins", sans-serif;
+    color: #343434;
+    margin: 0;
+}
+
+nav{
+    height: 128px;
+    display: flex;
+    gap: 84px;
+    text-align: center;
+    justify-content: center;
+}
+
+a{
+    color: #0F1C80;
+    text-decoration: none;
+    padding-top: 48px;
+}
+
+a:hover{
+    background-color: rgb(0, 212, 251, 0.2);
+    text-decoration: underline;
+    text-underline-offset: 60px;
+    text-decoration-thickness: 2px;
+}
+
+#nav-1{
+    background-color: rgb(0, 212, 251, 0.2);
+    text-decoration: underline;
+    text-underline-offset: 60px;
+    text-decoration-thickness: 2px;
+}
+
+p{
+    margin-top: 0px;
+}
+
+#cover{
+    text-align: center;
+}
+
+#heading{
+    margin-top: 124px;
+    font-weight: bold;
+    font-size: 48px;
+    color: #0F1C80;
+    text-align: center;
+}
+
+#sub-heading{
+    margin-top: 16px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#by-line{
+    margin-top: 40px;
+    
+}
+
+#intro{
+   margin-top: 120px;
+   margin-bottom: 152px;
+}
+
+h1{
+    color: #0F1C80;
+    text-align: center;
+}
+
+.highlight_light{
+    background-color: rgb(0, 212, 251, 0.2);
+    color: #0F1C80;
+}
+
+.intro-para{
+    margin-top: 48px;
+}
+
+#intro-para1{
+    margin-top: 80px;
+}
+
+#intro-text{
+    width: 400px;
+    margin-left: 24%;
+    position: relative;
+}
+
+#intro-image{
+    position: absolute;
+    top: -32px;
+    left: 110%;
+}
+
+#protein-matters{
+    background-color: #343434;
+    color: #DDE8EA;
+    text-align: center;
+}
+
+#protein-matters-heading{
+    padding-top: 168px;
+    color: #DDE8EA;
+}
+
+.highlight_dark{
+    background-color: rgb(0, 212, 251, 0.2);
+    color: #00D4FB;
+}
+
+.protein-matters-para{
+    margin-top: 88px;
+}
+
+#nutrition-comp{
+    display: flex;
+    justify-content: center;
+    gap: 104px;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+#protein-matters-subhead{
+    margin-top: 120px;
+    margin-bottom: 44px;
+}
+
+#protein-table{
+    margin-top: 72px;
+    margin-bottom: 88px;
+}
+
+.protein-chart{
+    margin-top: 48px;
+    margin-bottom: 120px;
+}
+
+#protein-qual-quote{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 72px;
+}
+
+.animal-protein{
+    background-color:rgb(220, 88, 42,0.3);
+    color: #DC582A;
+}
+
+.plant-protein{
+    background-color: rgb(141, 213, 231);
+    color: #017692;
+}
+
+#space{
+    color: #343434;
+}
+
+#protein-insight-text{
+    width: 400px;
+    margin-left: 24%;
+    position: relative;
+    margin-top: 348px;
+    margin-bottom: 348px;
+}
+
+#protein-insight-image{
+    position: absolute;
+    top: -174px;
+    left: 110%;
+}
