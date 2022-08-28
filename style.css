@@ -171,3 +171,28 @@ h1{
     top: -174px;
     left: 110%;
 }
+
+#quality{
+    margin-top: 48px;
+}
+
+.quality-section-head{
+    margin-top: 160px;
+}
+
+.quality-copy{
+    margin-top: 48px;
+}
+
+.quality-chart{
+    margin-top: 72px;
+}
+
+#glyph-structure{
+    margin-top: 48px;
+}
+
+.space_top{
+    color: #343434;
+    margin-top: 160px;
+}
