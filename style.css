@@ -1,7 +1,7 @@
 body{
-    background-color: #DEE9EB;
+    background-color: #FBF8FF;
     font-family: "Poppins", sans-serif;
-    color: #343434;
+    color: #0F1B18;
     margin: 0;
 }
 
@@ -9,210 +9,583 @@ nav{
     height: 128px;
     display: flex;
     gap: 84px;
-    text-align: center;
-    justify-content: center;
+    margin-left: 12%;
+    background-color: #207361;
 }
 
 a{
-    color: #0F1C80;
+    color: #FBF8FF;
     text-decoration: none;
     padding-top: 48px;
 }
 
 a:hover{
-    background-color: rgb(0, 212, 251, 0.2);
+    background-color: rgb(251, 248, 255, 0.2);
     text-decoration: underline;
     text-underline-offset: 60px;
     text-decoration-thickness: 2px;
 }
 
 #nav-1{
-    background-color: rgb(0, 212, 251, 0.2);
+    background-color: rgb(251, 248, 255, 0.2);
     text-decoration: underline;
     text-underline-offset: 60px;
     text-decoration-thickness: 2px;
 }
 
-p{
-    margin-top: 0px;
+.green-bg{
+    background-color: #207361;
 }
 
 #cover{
-    text-align: center;
+    height: 1080px;
+    position: relative;
+}
+
+p{
+    margin: 0;
 }
 
 #heading{
-    margin-top: 124px;
-    font-weight: bold;
-    font-size: 48px;
-    color: #0F1C80;
-    text-align: center;
+    color: #FBF8FF;
+    font-size: 3.2vw;
+    margin-left: 12%;
+    width: 36%;
+    font-weight: bolder;
+    margin-top: 180px;
+    margin-bottom: 24px;
 }
 
 #sub-heading{
-    margin-top: 16px;
-    font-size: 24px;
+    color: #FBF8FF;
+    font-size: 1.2vw;
+    margin-left: 12%;
+    width: 36%;
+}
+
+#action-text{
+    color: #FBF8FF;
+    font-size: 1.2vw;
+    margin-left: 12%;
+    width: 36%;
+    margin-top: 120px;
+}
+
+.scroll-further{
+    color: rgb(251, 248, 255, 0.75);
     text-align: center;
+    margin-top: 160px;
 }
 
-#by-line{
-    margin-top: 40px;
-    
-}
-
-#intro{
-   margin-top: 120px;
-   margin-bottom: 152px;
-}
-
-h1{
-    color: #0F1C80;
-    text-align: center;
-}
-
-.highlight_light{
-    background-color: rgb(0, 212, 251, 0.2);
-    color: #0F1C80;
-}
-
-.intro-para{
-    margin-top: 48px;
-}
-
-#intro-para1{
-    margin-top: 80px;
-}
-
-#intro-text{
-    width: 400px;
-    margin-left: 24%;
-    position: relative;
+.scroll-text{
+    margin-bottom: 16px;
 }
 
 #intro-image{
     position: absolute;
-    top: -32px;
-    left: 110%;
+    top: 308px;
+    right: 12%;
+    width: 34%;
 }
 
-#protein-matters{
-    background-color: #343434;
-    color: #DDE8EA;
-    text-align: center;
+.color-text{
+    color: #E7E193;
 }
 
-#protein-matters-heading{
-    padding-top: 168px;
-    color: #DDE8EA;
+.highlight-text{
+    background-color:#E7E193;
+    font-weight: bold;
 }
 
-.highlight_dark{
-    background-color: rgb(0, 212, 251, 0.2);
-    color: #00D4FB;
-}
-
-.protein-matters-para{
-    margin-top: 88px;
-}
-
-#nutrition-comp{
-    display: flex;
-    justify-content: center;
-    gap: 104px;
-    margin-top: 72px;
-    margin-bottom: 72px;
-}
-
-#protein-matters-subhead{
-    margin-top: 120px;
-    margin-bottom: 44px;
-}
-
-#protein-table{
-    margin-top: 72px;
-    margin-bottom: 88px;
-}
-
-.protein-chart{
-    margin-top: 48px;
-    margin-bottom: 120px;
-}
-
-#protein-qual-quote{
-    margin-top: 40px;
-    font-size: 20px;
-    margin-bottom: 72px;
-}
-
-.animal-protein{
-    background-color:rgb(220, 88, 42,0.3);
-    color: #DC582A;
-}
-
-.plant-protein{
-    background-color: rgb(141, 213, 231);
-    color: #017692;
-}
-
-#space{
-    color: #343434;
-}
-
-#protein-insight-text{
-    width: 400px;
-    margin-left: 24%;
+#wellbeing-woes{
     position: relative;
-    margin-top: 348px;
-    margin-bottom: 348px;
 }
 
-#protein-insight-image{
+#problem-img{
     position: absolute;
-    top: -174px;
-    left: 110%;
+    right: 12%;
+    width: 36%;
 }
 
-#quality{
+.problem-text{
+    margin-left: 12%;
+    width: 32%;
+    margin-bottom: 32px;
+    font-size: 1vw;
+}
+
+#market-header{
+    margin-left: 12%;
+    color: #207361;
+    width: 32%;
+    font-size: 1.6vw;
+    margin-bottom: 60px;
+    padding-top: 4vh;
+    position: relative;
+}
+
+#market-question-div{
+    margin-left: 12%;
+    margin-top: 40px; 
+    height: 124px;
+    position: relative;
+}
+
+#market-question{
+    color: #207361;
+    width: 32%; 
+    font-size: 1.2vw;
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+}
+
+.vl{
+    border-left: 4px solid #E7E193;
+    margin-right: 48px;
+    display: inline-block;
+    height: 124px;
+}
+
+#fix-div{
+    padding-top: 180px;
+    padding-bottom: 320px;
+}
+
+.dot {
+    height: 60px;
+    width: 60px;
+    background-color: #E7E193;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: -1;
+  }
+
+#market-dot{
+    position: absolute;
+    left: -30px;
+    top: 12px;
+}
+
+#fit-dot{
+    position: absolute;
+    left: -30px;
+    top: -10px;
+} 
+
+#fit-header{
+    margin-left: 12%;
+    color: #207361;
+    width: 32%; 
+    font-size: 1.6vw;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#fit-text{
+    margin-left: 12%;
+    font-size: 1vw;
+    width: 36%;
+}
+
+.fit-graph{
+    text-align: center;
+    margin-top: 96px;
+    position: relative;
+}
+
+#gif{
+    position: relative;
+    display: inline-block;
+}
+
+#gif-bg{    
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+    left: -24px;
+}
+
+.gif-captions{
+    font-size: 1.2vw;
+    margin-top: 12px;
+    margin-bottom: 124px;
+}
+
+#quality-summary{
+    height: 964px;
+    background-color: #207361;
+    margin-bottom: 160px;
+    text-align: center;
+    color: #FBF8FF;
+}
+
+#quality-header{
+    font-size: 1.6vw;
+    margin-top: 150px;
+    position: relative;
+    display: inline-block;
+}
+
+#quality-header-img{
+    position: absolute;
+    top: -43px;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: -1px;
+}
+
+#quality-intro{
+    color: rgb(251, 248, 255, 0.75);
     margin-top: 48px;
+    font-size: 1vw;
 }
 
-.quality-section-head{
+.highlight-light-text{
+    color: rgb(251, 248, 255);
+    font-weight: bold;
+}
+
+.qual-param-icon{
+    margin-bottom: 12px;
+}
+
+.qual-param{
+    display: inline-block;
+    margin-top: 60px;
+    width: 16%;
+    margin-right: 20px;
+}
+
+.qual-param-header{
+    font-size: 1.2vw;
+}
+
+.qual-param-separator{
+    border: 2px solid #E7E193;
+    border-radius: 2px;
+    width: 96px;
+}
+
+.qual-param-text{
+    margin-top: 24px;
+    color: rgb(251, 248, 255, 0.75);
+    font-size: 1vw;
+}
+
+#aafco-std{
+    padding-top: 40px;
+}
+
+#aafco-dot{
+    position: absolute;
+    left: -30px;
+    top: -10px;
+}
+
+.aafco-highlight{
+    background-color:rgb(254, 73, 26, 0.4);
+    font-weight: bold;
+}
+
+#constituent-container{
+    margin-top: 72px;
+    margin-bottom: 112px;
+    text-align: center;
+}
+
+.constituent-param{
+    display: inline-block;
+    margin-right: 6vw;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+#highlight-protein{
+    color: #FE491A;
+}
+
+#last-element{
+    margin-right: 0px;
+}
+
+.sub-header{
+    margin-left: 12%;
+    color: rgb(15, 23, 22, 0.75);
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.sub-header-separator{
+    margin-left: 12%;
+    border: 2px solid #E7E193;
+    border-radius: 2px;
+    width: 96px;
+    margin-bottom: 64px;
+}
+
+#aafco-intro{
+    margin-left: 12%;
+    margin-bottom: 48px;
+    font-size: 1vw;
+}
+
+#aafco-table{
+    text-align: center;
+}
+
+#aafco-faults{
+    height: 563px;
+    background-color: #207361;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 132px;
+    margin-bottom: 72px;
+}
+
+#gif-shadow{
+    position: absolute;
+    z-index: -1;
+    bottom: 88px;
+    left: 24px;
+}
+
+#beagle-caption{
+    position: absolute;
+    left: 50%;
+    top: 254px;
+    transform: translate(-50%,0);
+}
+
+#aafco-faults-header{
+    padding-top: 108px;
+    margin-left: 8%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #FBF8FF;
+}
+
+.highlight-underline{
+    text-decoration: underline;
+    text-decoration-color: #FE491A;
+}
+
+.fault-point{
+    margin-left: 8%;
+    position: relative;
+}
+
+.fault-pointer{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.fault-point-text{
+    color: #FBF8FF;
+    display: inline-block;
+    margin-left: 120px;
+    width: 80%;
+    margin-top: 72px;
+    font-size: 1vw;
+}
+
+.highlight-green{
+    color: #E7E193;
+    font-weight: bold;
+}
+
+#ingredient-quality{
     margin-top: 160px;
 }
 
-.quality-copy{
-    margin-top: 48px;
+.section-header{
+    margin-top: 90px;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-left: 18%;
 }
 
-.quality-chart{
+.section-header-text{
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+#brands-compare-protein{
+    margin-left: 60px;
+    margin-top: 112px;
+}
+
+.section-sub-header{
+    color: rgb(15, 23, 22, 0.75);
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.section-sub-header-separator{
+    border: 2px solid #E7E193;
+    border-radius: 2px;
+    width: 96px;
+    margin-bottom: 32px;
+    margin-left: 0;
+}
+
+#sources-container{
+    margin-top: 40px;
+}
+
+.source{
+    margin-top: 64px;
+    margin-left: 60px;
+    position: relative;
+    display: inline;
+    width: fit-content;
+}
+
+.source-text{
+    display: inline-block;
+    width: 28%;
+    margin-left: 60px;
+    font-size: 1vw;
+}
+
+#animal-protein{
+    border: 2px solid #FE491A;
+    border-radius: 2px;
+    width: 96px;
+    margin-bottom: 24px;
+    margin-left: 0;
+}
+
+#plant-protein{
+    border: 2px solid #207361;
+    border-radius: 2px;
+    width: 96px;
+    margin-bottom: 24px;
+    margin-left: 0;
+}
+
+.source-image{
+    position: absolute;
+    left: 0;
+}
+
+#compare-protein-intro
+{
+    margin-bottom: 60px;
+    width: 48%;
+    font-size: 1vw;
+}
+
+#protein-source-graph{
+    align-items: center;
     margin-top: 72px;
 }
 
-#glyph-structure{
-    margin-top: 48px;
+#section-2-intro{
+    margin-left: 68px;
+    font-size: 1vw;
+    width: 44%;
+    margin-top: 40px;
 }
 
-.space_top{
-    color: #343434;
-    margin-top: 160px;
+#brands-compare-ingredients{
+    margin-left: 68px;
+    margin-top: 112px;
 }
 
-#price-para1{
-    margin-top: 88px;
-}
-
-#price-para2{
-    margin-top: 48px;
-}
-
-#price-insight-image{
-    position: absolute;
-    top: -110px;
-    left: 110%;
-}
-
-footer{
+#ingredient-criteria{
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 40px;
+}
+
+#ingredients-graph{
+    align-items: center;
+    margin-top: 72px;
+}
+
+#ranking-graph{
+    margin-top: 48px;
+}
+
+#conclusion{
+    height: 375px;
+    background-color: #207361;
+    margin-top: 160px;
+    text-align: center;
+    color: #FBF8FF;
+}
+
+.link-style{
+    text-decoration: underline;
+}
+
+#conclusion-text{
+    font-size: 1.2vw;
+    color: rgb(251, 248, 255, 0.75);
+    margin-top: 40px;
+}
+
+#head-up-link{
+    color: #0F1B18;
+}
+
+#static-poster-header{
+    color: #FBF8FF;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+#static-poster-img{
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+#download-poster{
+    color: #FBF8FF;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+#iteration-1{
+    margin-left: 12%;
+}
+
+#iteration-1-header{
+    font-weight: bold;
+    font-size: 1vw;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+#iteration-1-proto{
+    text-align: center;
+}
+
+#it-1-header-img{
+    position: absolute;
+    top: -8px;
+    left: 0px;
+}
+
+#it-1-header-text{
+    display: inline-block;
+    margin-left: 60px;
+    height: 40px;
+    margin-top: -10px;
+}
+
+#deliver-process{
+    margin: 0px;
+}
+
+#vis{
+    text-align: center;
+    color: #FBF8FF;
+    padding-bottom: 200px;
+}
+
+.trials-header{
+    margin-top: 96px;
 }
