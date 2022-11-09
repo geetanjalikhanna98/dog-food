@@ -14,16 +14,25 @@
             function onClickProtein()
             {
                 changeImage("./assets/protein-qual-graph.svg");
+                document.getElementById('protein-quality-button').className = "protein-selected";
+                document.getElementById('presence-preservatives').className = "presence-preservatives-button";
+                document.getElementById('presence-allergens').className = "presence-allergens-button";
             }
 
             function onClickPreservatives()
             {
                 changeImage("./assets/preservatives-graph.svg");
+                document.getElementById('protein-quality-button').className = "protein-button";
+                document.getElementById('presence-preservatives').className = "preservatives-selected";
+                document.getElementById('presence-allergens').className = "presence-allergens-button";
             }
 
             function onClickAllergens()
             {
-                changeImage("./assets/allergens-graph.svg")
+                changeImage("./assets/allergens-graph.svg");
+                document.getElementById('protein-quality-button').className = "protein-button";
+                document.getElementById('presence-preservatives').className = "presence-preservatives-button";
+                document.getElementById('presence-allergens').className = "presence-allergens-selected";
             }
         </script>
     </head>
@@ -31,10 +40,10 @@
         <div class="green-bg" id="cover">
             <header>
                 <nav>
-                    <a id="nav-1" href="/">The Narrative</a>
-                    <a href="/static">The Static</a>
-                    <a href="/process">The Process</a>
-                    <a href="/practice">The Practice</a>
+                    <a id="nav-1" href="./">The Narrative</a>
+                    <a href="./static">The Static</a>
+                    <a href="./process">The Process</a>
+                    <a href="./practice">The Practice</a>
                 </nav>
             </header>
             <p id="heading">Is your pet dog’s food actually <span class="color-text">healthy</span>?</p>
@@ -454,11 +463,11 @@
                             <p class="section-sub-header">Comparing brands’ products by Protein Quantity & Source</p>
                             <hr class="section-sub-header-separator">
                             <p id="compare-protein-intro">For Example, <span class="highlight-text">Acana</span> has 1 product with 29% protein & 2 products with 31%, all with animal-leading protein sources.</p>
-                            <div id="button-container">
-                                <button class="button-style" id="show-all">Show All</button>
-                                <button class="button-style" id="animal-leading">Animal-Leading Sources</button>
-                                <button class="button-style" id="plant-leading">Plant-Leading Sources</button>
-                            </div>
+                            <!--<div id="button-container">
+                                <button class="show-all-button" id="show-all">Show All</button>
+                                <button class="animal-leading-button" id="animal-leading">Animal-Leading Sources</button>
+                                <button class="plant-leading-button" id="plant-leading">Plant-Leading Sources</button>
+                            </div> -->
                             <div id="protein-source-graph">
                                 <object data="./assets/protein-sources.svg" width="76%"></object>                                                                     
                             </div>    
@@ -480,9 +489,9 @@
                         <hr class="section-sub-header-separator">
                         <p id="compare-protein-intro">To see how brands compare across the above-mentioned metrics of ingredients quality as judged by the labels, click on the desired metric!</p>
                         <div id="button-container">
-                            <button onclick="onClickProtein()" class="button-style" id="protein-quality-button">Protein Quality</button>
-                            <button onclick="onClickPreservatives()" class="button-style" id="presence-preservatives">Presence of Preservatives</button>
-                            <button onclick="onClickAllergens()" class="button-style" id="presence-allergens">Presence of Allergens</button>
+                            <button onclick="onClickProtein()" class="protein-selected" id="protein-quality-button">Protein Quality</button>
+                            <button onclick="onClickPreservatives()" class="presence-preservatives-button" id="presence-preservatives">Presence of Preservatives</button>
+                            <button onclick="onClickAllergens()" class="presence-allergens-button" id="presence-allergens">Presence of Allergens</button>
                         </div>
                         <div id="ingredients-graph">
                             <object id="ingredients-img" data="./assets/protein-qual-graph.svg" width="76%"></object>

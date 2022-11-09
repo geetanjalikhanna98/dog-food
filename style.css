@@ -589,3 +589,59 @@ p{
 .trials-header{
     margin-top: 96px;
 }
+
+button{
+    width: 24%;
+    height: 48px;
+    border-radius: 24px;
+    font-size: 1.2vw;
+    margin-right: 20px;
+}
+
+.animal-leading-button, .protein-button{
+    background-color: #FBF8FF;
+    border: 2px solid #FE491A;
+    color: rgb(15, 23, 22, 0.6);
+}
+
+.animal-leading-selected, .protein-selected{
+    background-color: #FE491A;
+    color: #FBF8FF;
+    border: none;
+}
+
+.plant-leading-button, .presence-preservatives-button{
+    background-color: #FBF8FF;
+    border: 2px solid #207361;   
+    color: rgb(15, 23, 22, 0.6);
+}
+
+.plant-leading-selected, .preservatives-selected{
+    background-color: #207361;
+    color: #FBF8FF;
+    border: none;
+}
+
+.show-all-button{
+    background-color: #FBF8FF;
+    border: 2px solid #0F1B18;   
+    color: rgb(15, 23, 22, 0.6);
+}
+
+.show-all-selected{
+    background-color: #0F1B18;
+    color: #FBF8FF;
+    border: none;
+}
+
+.presence-allergens-button{
+    background-color: #FBF8FF;
+    border: 2px solid #F7B733;   
+    color: rgb(15, 23, 22, 0.6);
+}
+
+.presence-allergens-selected{
+    background-color: #F7B733;
+    color: #0F1B18;
+    border: none;
+}
